@@ -7,3 +7,26 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+#options-container{
+    margin: 30px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#options-container > div{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#options-container > div:hover{
+    scale: 1.1;
+    transition: 0.4s all;
+}
